@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="2.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script> <!-- Google reCAPTCHA -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo"><b>Recipe Finder</b></div>
+        <ul>
+            <li><a href="1.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <header id="home">
+        <div class="header-content">
+            
+           <body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+        <form>
+            <input type="text" id="search" placeholder="Enter ingredients">
+            <button type="button" id="submit" class="btn">Search</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    
+
+            
+        </div>
+    </header>
+    <section id="recipes">
+        <h2>Our Recipes</h2>
+        <div class="recipe-container">
+            <!-- Recipe cards will be dynamically inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <section id="flex-section1">
+        <div class="flex-container1">
+            <div class="flex-box1">
+                <h3><B>Recipe Finder</B></h3>
+                <BR>
+                <p>Welcome to <B> THE SPICY MEAL</B>, where delicious food meets genuine hospitality.Thank you for choosing <B> THE SPICY MEAL</B>. We look forward to serving you and making every visit memorable!
+                    
+                    ---</p>
+                
+            </div>
+            <div class="flex-box1">
+                <img src="img/logo.png" alt="Image 1">
+                
+            </div>
+        </div>
+</section>
+<section id="recipes">
+    <h2>WHY CHOOSE US?</h2>
+</section>
+<section id="flex-section2">
+    <div class="flex-container2">
+        <div class="flex-box2">
+            <img src="img/why choose us.jpg" alt="Image 1">
+
+            
+        </div>
+        <div class="flex-box2">
+            
+            <BR>
+            <p>1. Personalized Culinary Experience. </p>
+            <P>2. Wide Range of Recipess</P>
+            <P>3. Easy-to-Follow Instructions</P>
+            <P>4. Smart Ingredient Matching</P>
+                
+        </div>
+    </div>
+</section>
+
+
+    <!-- Recipe Display Section -->
+    <section id="recipes">
+        <h2>Our Recipes</h2>
+    </section>
+        <div class="contain">
+            <div class="item">
+                <img src="img/chicken momo.jpg" alt="Image 1">
+                <h3>Easy Chicken Momo Dumplings:
+                </h3>
+               <button>Show More</button>
+            </div>
+            <div class="item">
+                <img src="img/Easy Paneer Kathi Rolls.jpg" alt="Image 2">
+                <h3>Easy Paneer Kathi Rolls Recipe:</h3>
+                <button>Show More</button>
+            </div>
+            <div class="item">
+                <img src="img/Paneer Pizza Recipe.jpg" alt="Image 3">
+                <h3>Homemade Paneer Pizza Recipe:
+                </h3>
+                <button>Show More</button>
+            </div>
+            <div class="item">
+                <img src="img/biriyani.jpg" alt="Image 4">
+                <h3>Delicious The Best Chicken Biryani:</h3>
+                <button>Show More</button>
+            </div>
+    </div>    
+        
+
+    <section id="recipe">
+        <h2>Our Services</h2>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="feature-box">
+            <img src="img/advence.jpg" alt="Feature 1">
+            <h3>Advanced Search Functionality</h3>
+            <p>Provide a robust search feature that allows users to find recipes based on various criteria,cuisine type, dietary preferences, and cooking time. Offer filtering options to help users narrow down their choices quickly and efficiently.</p>
+        </div>
+        <div class="feature-box">
+            <img src="img/2.jpg" alt="Feature 2">
+            <h3>Personalized Recipe Recommendations</h3>
+            <p>mplement a recommendation engine that suggests recipes based on users' past searches, saved recipes, and dietary preferences. Tailor recommendations to individual tastes and needs, helping users discover new and relevant recipes.</p>
+        </div>
+        <div class="feature-box">
+            <img src="img/3.jpg" alt="Feature 3">
+            <h3>Interactive Recipe Details</h3>
+            <p>Display comprehensive recipe information,step-by-step cooking instructions, nutritional information, and high-quality images. Include features like user reviews,and cooking tips to enhance the user experience.</p>
+        </div>
+        <div class="feature-box">
+            <img src="img/4.jpg" alt="Feature 4">
+            <h3>Shopping List Integration</h3>
+            <p>Offer meal planning tools that allow users to create and save meal plans for the week. Generate shopping lists based on selected recipes, making it easy for users to gather all necessary ingredients with grocery delivery services if possible.</p>
+        </div>
+    </section>
+
+    <!-- Flex Boxes Section -->
+    
+        <div class="contacHedaing">
+    <p>Contact Information</p>
+    
+</div>
+
+<div class="contactinfo">
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="connect.php" method="post">
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!-- Login Form -->
+    <!-- Login Form -->
+<div class="contact-form">
+    <h2>User Login</h2>
+    <form action="login.php" method="post">
+        <label for="login-email">Your Email</label>
+        <input type="email" id="login-email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Log In">
+    </form>
+
+    <p style="text-align: center; margin-top: 10px;">
+        New user? <a href="signup.html">Sign up here</a>
+    </p>
+</div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div id="google-map">
+            <!-- Google Map Embedding Here -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093673!2d144.95373531531714!3d-37.81627927975181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43d8c7a111%3A0x5045675218cee7e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1610708474827!5m2!1sen!2sin"
+                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+        <!-- Footer Section -->
+    <footer class="footer2">
+        <div class="container2">
+            <div class="footer-columns2">
+                <!-- About Section -->
+                <div class="footer-column2">
+                    <h3>About Us</h3>
+                    <p>At  Track Field, we blend style, comfort, and quality in every pair of shoes. From athletic to casual, formal to specialty, our curated selection is crafted with care to meet your needs and enhance your lifestyle. Discover footwear that supports your journey and makes every step count. Join us and step out in confidence with Track Field..</p>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="footer-column2">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#property">Property</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="footer-column2">
+                    <h3>Contact Us</h3>
+                    <p>Salt Lake Sector-V, Kolkata, westBangal, 700071</p>
+                    <p>Email: <a href="Saudiptarauth@gmail.com">Saudiptarauth@gmail.com</a></p>
+                    <p>Phone: <a href="8972438424">+91 8972438424</a></p>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="footer-column2">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><img src="img/fb.jpg" alt="Facebook"></a>
+                        <a href="#" class="social-icon"><img src="img/inslogo.jpg" alt="Instagram"></a>
+                        <a href="#" class="social-icon"><img src="img/yt.jpg" alt="YouTube"></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer-bottom2">
+                <p>&copy; 2024 Track Field. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+        <script src="script.js"></script>
+    
+    <script>
+        // Your Edamam API credentials
+const app_id = '8adef325'; // Replace with your Edamam API ID
+const app_key = '7990d45539dd3a14991c18f4ad0fc251'; // Replace with your Edamam API key
+
+// Function to display recipes
+const displayRecipes = (recipes) => {
+    const recipeContainer = document.querySelector(".recipe-container");
+    recipeContainer.innerHTML = "";
+    recipes.forEach(recipe => {
+        const recipeCard = `
+            <div class="recipe-card">
+                <img src="${recipe.img}" alt="${recipe.title}">
+                <h3>${recipe.title}</h3>
+                <p>${recipe.ingredients.join(", ")}</p>
+                <a href="${recipe.instructions}" target="_blank">View Recipe</a>
+            </div>
+        `;
+        recipeContainer.innerHTML += recipeCard;
+    });
+};
+
+// Function to search for recipes using the Edamam API
+window.searchRecipes = async () => {
+    const searchTerm = document.getElementById("search-bar").value.toLowerCase();
+
+    if (!searchTerm) return;
+
+    const apiUrl = https://api.edamam.com/search?q=${searchTerm}&app_id=${app_id}&app_key=${app_key}&from=0&to=9;
+
+    try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        const filteredRecipes = data.hits.map(hit => ({
+            img: hit.recipe.image,
+            title: hit.recipe.label,
+            ingredients: hit.recipe.ingredientLines,
+            instructions: hit.recipe.url // Directing to the recipe source
+        }));
+
+        displayRecipes(filteredRecipes);
+    } catch (error) {
+        console.error("Error fetching recipes:", error);
+    }
+};
+
+
+
+
+    
+
+    
+    </script>
+</body>
+</html>
